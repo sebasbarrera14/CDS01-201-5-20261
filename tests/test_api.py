@@ -66,4 +66,3 @@ def test_procesar_pago():
     r = client.post('/pagos/', json={'id_pedido': 1, 'metodo': 'nequi', 'monto': 7000.0})
     assert r.status_code == 200
     assert 'referencia' in r.json()
-  
