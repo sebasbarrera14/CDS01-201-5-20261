@@ -9,7 +9,6 @@ on:
 jobs:
   pruebas:
     runs-on: ubuntu-latest
-
     steps:
       - name: Clonar repositorio
         uses: actions/checkout@v4
